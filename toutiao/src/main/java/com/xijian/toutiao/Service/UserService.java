@@ -65,7 +65,7 @@ public class UserService {
         }
 
         User user=userDAO.selectByName(username);
-        if(MD5(password+user.getSalt()).equals(user.getPassword())){
+        if(!MD5(password+user.getSalt()).equals(user.getPassword())){
             map.put("msgpwd","用户密码错误！");
             return map;
         }
