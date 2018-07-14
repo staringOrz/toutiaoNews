@@ -8,9 +8,11 @@
 
 ------
 
-## 访问地址
+## 访问地址  
 
-http://119.29.20.88:8080/
+[github地址](https://github.com/staringOrz/toutiaoNews)
+
+[项目展示](http://119.29.20.88:8080/)
 
 ------
 
